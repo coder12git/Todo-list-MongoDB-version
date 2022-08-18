@@ -48,7 +48,7 @@ Once you've added some new items to the list  (and thus the database), or create
 
 ```bash
 > show dbs  # there should be a 'todolistDB' present
-> use todolistDBD
+> use todolistDB
 > show collections  # there should be a 'items' and a 'lists' collection
 > db.items.find()   # show all item documents in the 'items' collection
 > db.lists.find()   # show all list documents in the 'lists' collection
